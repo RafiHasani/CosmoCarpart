@@ -1,0 +1,203 @@
+body{
+    background-color:white;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+    margin-bottom: 2px;
+   
+}
+h1
+{
+  font-size: 48px;
+  color: black;
+}
+.row img
+{
+  height: 60px;
+  list-style: none;
+}
+
+.row ul li 
+{
+  list-style: none;
+}
+
+nav 
+{
+  background-color:rgb(125, 73, 138);
+}
+
+nav ul li a
+{
+  text-decoration: none;
+  color:white;
+}
+#upleft ul li a
+{
+  color: black;
+  
+}
+
+ nav ul, #upleft ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+}
+nav li, #upleft li
+{
+    margin:0px 10px 0px 0px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#upleft
+{
+  padding-top: 15px;
+}
+#cartclick
+{
+  margin-left: 30px;
+}
+
+section
+{
+    width: 100%;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+#idcell
+{
+  display: none;
+}
+.pdata
+{
+  color: rgb(116, 136, 158);
+}
+
+
+.leftopt
+{
+  background-color:black;
+}
+
+.product
+{
+margin: 10px;
+text-align: center;
+background-color:whitesmoke;
+border-radius: 10px;
+border: 5px rgb(116, 136, 158);
+box-shadow: whitesmoke;
+height: 280px;
+width: 250px;
+}
+.product_box
+{
+  display: block;
+  align-content: center;
+  padding-top: 40px;
+}
+
+.proimg
+{
+  height: 180px;
+  width:120px;
+  border:5px;
+  box-shadow: whitesmoke;
+}
+
+.aside
+{
+  background-color: rgb(125, 73, 138);
+  display:block;
+  width: 250px;
+  box-shadow: 1px #eee;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.aside ul li a
+{
+  text-decoration: none;
+  color:white;
+}
+
+
+.stackem div
+ {
+  width: 100%;
+}
+
+.username
+{
+  color: green;
+  text-align: center;
+  font-variant-caps: titling-caps;
+  margin-right: 5px;
+}
+
+#cart_show
+{
+  display: none;
+  z-index: 1;
+  position:absolute;
+  text-align: left;
+  background-color:white;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+
+#tab tr
+{
+  border:1px solid black;
+  box-shadow: 5px whitesmoke;
+  border-radius: 5px;
+  width: 100%;
+}
+#tab tr th
+{
+  background-color:rgb(125, 73, 138);
+}
+#tab td
+{
+  border: 1px solid darkgray;
+  text-align: center;
+  margin: 5px;
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin: 20px 0px 15px 0px ;
+    padding:3%;
+    background-color:rgba(0, 0, 0, 0.712);
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
